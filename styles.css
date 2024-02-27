@@ -155,7 +155,7 @@ form button {
     .text-blockservices {
         width: 90%; /* Уменьшаем ширину блоков до 90% ширины экрана */
         padding: 20px; /* Увеличиваем отступы в блоках */
-       background-position: center bottom;  
+        background-position: center bottom;  
         background-repeat: no-repeat;
     }
 
