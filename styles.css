@@ -46,7 +46,7 @@ nav ul {
 
 nav ul li a:hover {
     color: #130fef; /* Цвет при наведении курсора */
-    font-size: 60px; /* Увеличиваем размер шрифта при наведении */
+    font-size: 70px; /* Увеличиваем размер шрифта при наведении */
     transition: font-size 0.3s ease;
 }
 
