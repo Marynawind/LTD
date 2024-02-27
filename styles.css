@@ -141,48 +141,44 @@ form button {
     font-size: 25px;
 }
 /* Медиа-запрос для устройств с экраном до 780px */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 700px) {
     header {
-            padding: 20px; /* Уменьшаем отступы в заголовке */
-            font-size: 20px; /* Уменьшаем размер шрифта заголовка */
-            background-image:  url('ltd-2.png'); 
-            background-size: 90%;
-            background-repeat: no-repeat;
-    
+        padding: 50px; /* Уменьшаем отступы заголовка */
+        font-size: 23px; /* Уменьшаем размер шрифта заголовка */
     }
 
-    .phone-icon {
-        top: 10px; /* Уменьшаем отступ иконки телефона */
-        right: 10px; /* Уменьшаем отступ иконки телефона */
+    .text-blockabout,
+    .text-blockservices {
+        width: 95%; /* Уменьшаем ширину блоков до 90% ширины экрана */
+        padding: 20px; /* Увеличиваем отступы в блоках */
     }
- p {
-        width: 90%; /* Занимаем всю ширину экрана */
+
+    p {
+        width: 95%; /* Уменьшаем ширину параграфов до 90% */
     }
 
     table {
-        width: 90%; /* Занимаем всю ширину экрана */
+        width: 95%; /* Уменьшаем ширину таблиц до 90% */
     }
-     .text-blockabout::after {
-        width: 90%;
-        background-image: url('one.png');
-        background-size: 90%;
-        background-repeat: no-repeat;
+
+    nav ul {
+        margin-top: 50px; /* Увеличиваем отступы списка навигации */
     }
-    .text-blockservices::after {
-        width: 90%;
-        background-image: url('two.png');
-        background-size: 90%;
-        background-repeat: no-repeat;
+
+    nav ul li {
+        display: block; /* Переключаем список навигации на блочное отображение */
+        margin-right: 0; /* Убираем правый отступ элементов списка */
+        margin-top: 10px; /* Уменьшаем верхний отступ элементов списка */
     }
+
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 90%; /* Уменьшаем ширину полей формы */
+        width: 95%; /* Уменьшаем ширину полей формы до 90% */
     }
 
     form button {
-        font-size: 20px; /* Уменьшаем размер шрифта кнопки */
-        margin-right: 5px; /* Уменьшаем отступ справа */
+        margin-right: 0; /* Убираем отступ справа у кнопки формы */
     }
 }
