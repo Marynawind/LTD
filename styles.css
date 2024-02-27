@@ -140,14 +140,15 @@ form button {
     margin-right: 40px;
     font-size: 25px;
 }
+/* Мобильные стили до 700px */
 @media only screen and (max-width: 700px) {
     header {
-        padding: 40px;
+        padding: 50px;
         font-size: 20px;
         background-image: url('ltd-2.png');
-        background-position: center 80%;
+        background-position: center;
         background-repeat: no-repeat;
-        text-align: center; /* Центрируем текст заголовка */
+        background-size: contain; /* Устанавливаем подгонку изображения под ширину */
     }
 }
 .phone-icon {
@@ -164,31 +165,6 @@ form button {
         padding: 30px; /* Уменьшаем отступы в секциях */
     }
 
-   .text-blockabout ,
-    .text-blockservices {
-        width: 90%; /* Ширина блока на всю ширину экрана */
-        padding: 10px; /* Уменьшаем внутренние отступы для компактного отображения */
-        background-color: rgba(43, 104, 210, 0.3); /* Цвет фона блока */
-        margin-top: 30px; /* Отступ сверху для визуального разделения блоков */
-        border-radius: 30px; /* Закругляем углы блока */
-        overflow: hidden; /* Скрытие излишков текста, если он выходит за пределы блока */
-    }
-
-    .text-blockabout p {
-        width: 90%; /* Текст занимает всю ширину блока */
-        margin: 0; /* Убираем внешние отступы для текста */
-    }
-  .text-blockservices tr {
-    width: 100%; /* Ширина ячейки таблицы занимает всю доступную ширину блока */
-    margin: 0; /* Убираем внешние отступы для ячеек таблицы */
-}
-    .text-blockabout img,
-    .text-blockservices img {
-        width: 90%; /* Изображение занимает всю ширину блока */
-        display: block; /* Помещаем изображение на новую строку */
-        margin-top: 10px; /* Отступ сверху для разделения текста и изображения */
-        margin-bottom: 10px; /* Отступ снизу для разделения изображения и следующего содержимого */
-    }
 }
     form input[type="text"],
     form input[type="telephone"],
