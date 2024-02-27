@@ -144,9 +144,9 @@ form button {
 @media only screen and (max-width: 780px) {
     header {
             padding: 20px; /* Уменьшаем отступы в заголовке */
-            font-size: 24px; /* Уменьшаем размер шрифта заголовка */
+            font-size: 20px; /* Уменьшаем размер шрифта заголовка */
             background-image:  url('ltd-2.png'); 
-            background-size: 100%;
+            background-size: 90%;
             background-repeat: no-repeat;
     
     }
@@ -156,29 +156,29 @@ form button {
         right: 10px; /* Уменьшаем отступ иконки телефона */
     }
  p {
-        width: 100%; /* Занимаем всю ширину экрана */
+        width: 90%; /* Занимаем всю ширину экрана */
     }
 
     table {
-        width: 100%; /* Занимаем всю ширину экрана */
+        width: 90%; /* Занимаем всю ширину экрана */
     }
      .text-blockabout::after {
-        width: 100%;
+        width: 90%;
         background-image: url('one.png');
-        background-size: 100%;
+        background-size: 90%;
         background-repeat: no-repeat;
     }
     .text-blockservices::after {
-        width: 100%;
+        width: 90%;
         background-image: url('two.png');
-        background-size: 100%;
+        background-size: 90%;
         background-repeat: no-repeat;
     }
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 100%; /* Уменьшаем ширину полей формы */
+        width: 90%; /* Уменьшаем ширину полей формы */
     }
 
     form button {
@@ -186,4 +186,3 @@ form button {
         margin-right: 5px; /* Уменьшаем отступ справа */
     }
 }
-
