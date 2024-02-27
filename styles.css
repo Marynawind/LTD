@@ -157,25 +157,20 @@ form button {
     right: 10px; /* Отступ от правого края */
 }
 
-    nav ul {
+   nav ul {
         text-align: center; /* Центрируем элементы навигации */
     }
 
-    section {
-        padding: 30px; /* Уменьшаем отступы в секциях */
-    }
-
-}
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 90%; /* Увеличиваем ширину полей формы */
+        width: 100%; /* Ширина полей формы на всю ширину экрана */
         margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
     }
 
     form button {
-        width: 90%; /* Увеличиваем ширину кнопки формы */
+        width: 100%; /* Ширина кнопки формы на всю ширину экрана */
         margin-right: 0; /* Убираем отступ справа */
     }
 }
