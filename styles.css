@@ -163,11 +163,30 @@ form button {
         padding: 30px; /* Уменьшаем отступы в секциях */
     }
 
-    .text-blockabout,
+   .text-blockabout,
     .text-blockservices {
-        width: 90%; /* Устанавливаем ширину блоков на 100% */
+        width: 90%; /* Ширина блока на всю ширину экрана */
+        padding: 10px; /* Уменьшаем внутренние отступы для компактного отображения */
+        background-color: rgba(43, 104, 210, 0.3); /* Цвет фона блока */
+        margin-top: 30px; /* Отступ сверху для визуального разделения блоков */
+        border-radius: 30px; /* Закругляем углы блока */
+        overflow: hidden; /* Скрытие излишков текста, если он выходит за пределы блока */
     }
 
+    .text-blockabout p,
+    .text-blockservices p {
+        width: 90%; /* Текст занимает всю ширину блока */
+        margin: 0; /* Убираем внешние отступы для текста */
+    }
+
+    .text-blockabout img,
+    .text-blockservices img {
+        width: 90%; /* Изображение занимает всю ширину блока */
+        display: block; /* Помещаем изображение на новую строку */
+        margin-top: 10px; /* Отступ сверху для разделения текста и изображения */
+        margin-bottom: 10px; /* Отступ снизу для разделения изображения и следующего содержимого */
+    }
+}
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
