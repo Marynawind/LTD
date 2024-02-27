@@ -174,16 +174,14 @@ form button {
         overflow: hidden; /* Скрытие излишков текста, если он выходит за пределы блока */
     }
 
-    .text-blockabout p,
-    .text-blockservices p {
+    .text-blockabout p {
         width: 90%; /* Текст занимает всю ширину блока */
         margin: 0; /* Убираем внешние отступы для текста */
     }
-    .text-blockabout td,
-    .text-blockservices td {
-        width: 90%; /* Текст занимает всю ширину блока */
-        margin: 0; /* Убираем внешние отступы для текста */
-    }
+  .text-blockservices td {
+    width: 100%; /* Ширина ячейки таблицы занимает всю доступную ширину блока */
+    margin: 0; /* Убираем внешние отступы для ячеек таблицы */
+}
     .text-blockabout img,
     .text-blockservices img {
         width: 90%; /* Изображение занимает всю ширину блока */
