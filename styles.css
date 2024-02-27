@@ -146,7 +146,8 @@ form button {
         padding: 50px; /* Уменьшаем отступы заголовка */
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');  
-        background-position: center 80%; 
+        background-position: center; 
+        width: 80%;
         background-repeat: no-repeat;
     }
 .phone-icon {
