@@ -162,12 +162,14 @@ form button {
         width: 100%; /* Занимаем всю ширину экрана */
     }
         .text-blockabout::after {
+            width: 100%; 
         content: url('one.png'); /* Устанавливаем изображение */
         display: block; /* Делаем изображение блочным элементом */
         margin-top: 10px; /* Добавляем небольшой отступ сверху */
     }
 
     .text-blockservices::after {
+        width: 100%; 
         content: url('two.png'); /* Устанавливаем изображение */
         display: block; /* Делаем изображение блочным элементом */
         margin-top: 10px; /* Добавляем небольшой отступ сверху */
