@@ -140,49 +140,62 @@ form button {
     margin-right: 40px;
     font-size: 25px;
 }
-/* Мобильная версия */
-@media only screen and (max-width: 600px) {
+/* Медиа-запрос для устройств с экраном до 780px */
+@media only screen and (max-width: 780px) {
+    body {
+        padding: 5px; /* Уменьшаем отступы */
+    }
+
     header {
-        padding: 20px;
-        font-size: 24px;
+        padding: 50px; /* Уменьшаем отступы в заголовке */
+        font-size: 30px; /* Уменьшаем размер шрифта заголовка */
     }
 
     .phone-icon {
-        top: 5px; 
-        right: 5px; 
-    }
-
-    .phone-icon a img {
-        width: 40px; 
-        height: 40px;
+        top: 20px; /* Уменьшаем отступ иконки телефона */
+        right: 20px; /* Уменьшаем отступ иконки телефона */
     }
 
     nav ul {
-        margin-top: 60px; 
+        margin-top: 100px; /* Уменьшаем отступ для навигационного меню */
     }
 
-    nav ul li a:hover {
-        font-size: 24px; 
+    nav ul li {
+        margin-right: 10px; /* Уменьшаем отступ между элементами навигации */
+        margin-top: 10px; /* Уменьшаем отступ между элементами навигации */
     }
 
-    .text-blockabout, .text-blockservices {
-        padding: 5px;
-        width: 95%;
+    nav ul li a {
+        font-size: 18px; /* Уменьшаем размер шрифта в пунктах навигации */
     }
 
-    form label {
-        font-size: 18px;
+    section {
+        padding: 100px; /* Уменьшаем отступы в разделах */
+    }
+
+    p {
+        width: 100%; /* Занимаем всю ширину экрана */
+    }
+
+    table {
+        width: 100%; /* Занимаем всю ширину экрана */
+    }
+
+    .text-blockabout,
+    .text-blockservices {
+        width: 90%; /* Уменьшаем ширину блоков */
+        background-size: 30%; /* Уменьшаем размер фонового изображения */
     }
 
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        padding: 3px;
+        width: 90%; /* Уменьшаем ширину полей формы */
     }
 
     form button {
-        padding: 8px 16px;
-        font-size: 18px;
+        font-size: 20px; /* Уменьшаем размер шрифта кнопки */
+        margin-right: 20px; /* Уменьшаем отступ справа */
     }
 }
