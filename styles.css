@@ -141,14 +141,17 @@ form button {
     font-size: 25px;
 }
 @media only screen and (max-width: 700px) {
-    header {
-        padding: 50px;
-        font-size: 20px; /* Уменьшаем размер шрифта заголовка */
-        background-image: url('ltd-2.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+   header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Выравнивание по центру */
+    padding: 50px;
+    font-size: 20px;
+    background-image: url('ltd-2.png');
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
 .phone-icon {
     position: fixed;
     top: 10px; /* Отступ от верхнего края */
