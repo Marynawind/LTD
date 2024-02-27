@@ -141,25 +141,46 @@ form button {
     font-size: 25px;
 }
 @media only screen and (max-width: 700px) {
-    p {
-        width: 100%; /* Измените ширину параграфов на 100% */
+    header {
+        padding: 30px; /* Уменьшаем отступы заголовка */
+        font-size: 24px; /* Уменьшаем размер шрифта заголовка */
     }
-    table {
-        width: 100%; /* Измените ширину таблиц на 100% */
+
+    .phone-icon {
+        position: relative; /* Возвращаем позиционирование в изначальное состояние */
+        top: 0; /* Сбрасываем отступ сверху */
+        right: 0; /* Сбрасываем отступ справа */
+        text-align: center; /* Выравниваем иконку по центру */
     }
-    /* Добавьте другой идентификатор второму полю ввода */
-    #phone {
-        width: 100%; /* Измените ширину поля ввода на 100% */
+
+    .phone-icon a img {
+        width: 50px; /* Уменьшаем размер иконки телефона */
+        height: auto; /* Автоматический подбор высоты */
     }
-    form button {
-        float: none; /* Уберите флоат для кнопки */
-        margin-right: 0; /* Уберите отступы справа у кнопки */
-        margin-top: 10px; /* Добавьте отступ сверху для кнопки */
+
+    nav ul {
+        text-align: center; /* Центрируем элементы навигации */
     }
-    /* Центрируйте содержимое в блоках */
+
+    section {
+        padding: 30px; /* Уменьшаем отступы в секциях */
+    }
+
     .text-blockabout,
-    .text-blockservices,
-    form {
-        text-align: center;
+    .text-blockservices {
+        width: 100%; /* Устанавливаем ширину блоков на 100% */
+    }
+
+    form input[type="text"],
+    form input[type="telephone"],
+    form input[type="email"],
+    form textarea {
+        width: 90%; /* Увеличиваем ширину полей формы */
+        margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
+    }
+
+    form button {
+        width: 90%; /* Увеличиваем ширину кнопки формы */
+        margin-right: 0; /* Убираем отступ справа */
     }
 }
