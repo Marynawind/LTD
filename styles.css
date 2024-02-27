@@ -142,7 +142,7 @@ form button {
 }
 @media only screen and (max-width: 700px) {
     header {
-        padding: 40px; /* Уменьшаем отступы заголовка */
+        padding: 60px; /* Уменьшаем отступы заголовка */
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');
         background-position: center;
