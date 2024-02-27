@@ -144,13 +144,19 @@ form button {
 @media only screen and (max-width: 700px) {
     header {
         padding: 50px; /* Уменьшаем отступы заголовка */
-        font-size: 23px; /* Уменьшаем размер шрифта заголовка */
+        font-size: 20px; /* Уменьшаем размер шрифта заголовка */
+        background-image: url('ltd-2.png');  
+        width: 95%;
+        background-position: center;   
+        background-repeat: no-repeat;
     }
 
     .text-blockabout,
     .text-blockservices {
         width: 95%; /* Уменьшаем ширину блоков до 90% ширины экрана */
         padding: 20px; /* Увеличиваем отступы в блоках */
+        background-position: center;   
+        background-repeat: no-repeat;
     }
 
     p {
@@ -175,7 +181,6 @@ form button {
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 95%; /* Уменьшаем ширину полей формы до 90% */
     }
 
     form button {
