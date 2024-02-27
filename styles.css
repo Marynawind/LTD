@@ -163,7 +163,7 @@ form button {
         padding: 30px; /* Уменьшаем отступы в секциях */
     }
 
-   .text-blockabout,
+   .text-blockabout ,
     .text-blockservices {
         width: 90%; /* Ширина блока на всю ширину экрана */
         padding: 10px; /* Уменьшаем внутренние отступы для компактного отображения */
@@ -178,7 +178,11 @@ form button {
         width: 90%; /* Текст занимает всю ширину блока */
         margin: 0; /* Убираем внешние отступы для текста */
     }
-
+    .text-blockabout td,
+    .text-blockservices td {
+        width: 90%; /* Текст занимает всю ширину блока */
+        margin: 0; /* Убираем внешние отступы для текста */
+    }
     .text-blockabout img,
     .text-blockservices img {
         width: 90%; /* Изображение занимает всю ширину блока */
