@@ -142,60 +142,41 @@ form button {
 }
 /* Медиа-запрос для устройств с экраном до 780px */
 @media only screen and (max-width: 780px) {
-    body {
-        padding: 5px; /* Уменьшаем отступы */
-    }
-
     header {
-        padding: 50px; /* Уменьшаем отступы в заголовке */
-        font-size: 30px; /* Уменьшаем размер шрифта заголовка */
+        padding: 20px; /* Уменьшаем отступы в заголовке */
+        font-size: 24px; /* Уменьшаем размер шрифта заголовка */
     }
 
     .phone-icon {
-        top: 20px; /* Уменьшаем отступ иконки телефона */
-        right: 20px; /* Уменьшаем отступ иконки телефона */
+        top: 10px; /* Уменьшаем отступ иконки телефона */
+        right: 10px; /* Уменьшаем отступ иконки телефона */
     }
 
-    nav ul {
-        margin-top: 100px; /* Уменьшаем отступ для навигационного меню */
+     .text-blockabout::after {
+        content: '';
+        display: block;
+        width: 50%;
+        margin-top: 20px;
+        background-image: url('one.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: right;
     }
-
-    nav ul li {
-        margin-right: 10px; /* Уменьшаем отступ между элементами навигации */
-        margin-top: 10px; /* Уменьшаем отступ между элементами навигации */
-    }
-
-    nav ul li a {
-        font-size: 18px; /* Уменьшаем размер шрифта в пунктах навигации */
-    }
-
-    section {
-        padding: 100px; /* Уменьшаем отступы в разделах */
-    }
-
-    p {
-        width: 100%; /* Занимаем всю ширину экрана */
-    }
-
-    table {
-        width: 100%; /* Занимаем всю ширину экрана */
-    }
-
-    .text-blockabout,
-    .text-blockservices {
-        width: 100%; /* Уменьшаем ширину блоков */
-        background-size: 50%; /* Уменьшаем размер фонового изображения */
+    .text-blockservices::after {
+        content: '';
+        display: block;
+        width: 50%;
+        margin-top: 20px;
+        background-image: url('two.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: right;
     }
 
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 100%; /* Уменьшаем ширину полей формы */
-    }
-
-    form button {
-        font-size: 20px; /* Уменьшаем размер шрифта кнопки */
-        margin-right: 20px; /* Уменьшаем отступ справа */
+        width: 95%; /* Увеличиваем ширину полей формы */
     }
 }
