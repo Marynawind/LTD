@@ -159,28 +159,29 @@ form button {
  p {
         width: 100%; /* Измените ширину параграфов на 100% */
     }
-  label {
-        width: 100%; /* Ширина меток формы на всю ширину экрана */
-    }
-
-    .phone-icon {
-        text-align: center; /* Центрируем иконку телефона */
-    }
-
-    nav ul {
+ nav ul {
         text-align: center; /* Центрируем элементы навигации */
+    }
+
+    section {
+        padding: 30px; /* Уменьшаем отступы в секциях */
+    }
+
+    .text-blockabout,
+    .text-blockservices {
+        width: 100%; /* Устанавливаем ширину блоков на 90% */
     }
 
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 80%; /* Ширина полей формы на всю ширину экрана */
+        width: 90%; /* Увеличиваем ширину полей формы */
         margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
     }
 
     form button {
-        width: 80%; /* Ширина кнопки формы на всю ширину экрана */
+        width: 90%; /* Увеличиваем ширину кнопки формы */
         margin-right: 0; /* Убираем отступ справа */
     }
 }
