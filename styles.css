@@ -146,7 +146,7 @@ form button {
         padding: 20px; /* Уменьшаем отступы в заголовке */
         font-size: 24px; /* Уменьшаем размер шрифта заголовка */
         background-image:  url('ltd-2.png'); 
-        background-size: cover;
+        background-size: 80%;
         background-repeat: no-repeat;
     }
 
@@ -162,19 +162,13 @@ form button {
         width: 100%; /* Занимаем всю ширину экрана */
     }
      .text-blockabout::after {
-        content: '';
-        display: block;
-        width: 95%;
-        margin-top: 20px;
+        width: 100%
         background-image: url('one.png');
         background-size: cover;
         background-repeat: no-repeat;
     }
     .text-blockservices::after {
-        content: '';
-        display: block;
-        width: 95%;
-        margin-top: 20px;
+        width: 100%;
         background-image: url('two.png');
         background-size: cover;
         background-repeat: no-repeat;
