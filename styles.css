@@ -161,17 +161,16 @@ form button {
     table {
         width: 100%; /* Занимаем всю ширину экрана */
     }
-     .text-blockabout::after {
-        width: 100%;
-        background-image: url('one.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
+        .text-blockabout::after {
+        content: url('one.png'); /* Устанавливаем изображение */
+        display: block; /* Делаем изображение блочным элементом */
+        margin-top: 10px; /* Добавляем небольшой отступ сверху */
     }
+
     .text-blockservices::after {
-        width: 100%;
-        background-image: url('two.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
+        content: url('two.png'); /* Устанавливаем изображение */
+        display: block; /* Делаем изображение блочным элементом */
+        margin-top: 10px; /* Добавляем небольшой отступ сверху */
     }
     form input[type="text"],
     form input[type="telephone"],
