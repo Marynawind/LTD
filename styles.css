@@ -143,30 +143,53 @@ form button {
 /* Медиа-запрос для устройств с экраном до 780px */
 @media only screen and (max-width: 700px) {
     header {
-        padding: 50px; /* Уменьшаем отступы заголовка */
+        padding: 30px; /* Уменьшаем отступы заголовка */
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');  
         background-position: center; 
-        width: 80%;
+        width: 100%;
         background-repeat: no-repeat;
     }
 
     .text-blockabout,
     .text-blockservices {
-        width: 90%; /* Уменьшаем ширину блоков до 90% ширины экрана */
+        width: 100%; /* Ширина блоков на всю ширину экрана */
         padding: 20px; /* Увеличиваем отступы в блоках */
         background-position: center bottom;  
         background-repeat: no-repeat;
+        min-height: 200px; /* Минимальная высота блоков, чтобы изображения были видны */
     }
 
     p {
-        width: 90%; /* Уменьшаем ширину параграфов до 90% */
+        width: 100%; /* Ширина параграфов на всю ширину экрана */
     }
 
     table {
-        width: 90%; /* Уменьшаем ширину таблиц до 90% */
+        width: 100%; /* Ширина таблиц на всю ширину экрана */
     }
-  label {
-        width: 90%; /* Уменьшаем ширину таблиц до 90% */
+
+    label {
+        width: 100%; /* Ширина меток формы на всю ширину экрана */
+    }
+
+    .phone-icon {
+        text-align: center; /* Центрируем иконку телефона */
+    }
+
+    nav ul {
+        text-align: center; /* Центрируем элементы навигации */
+    }
+
+    form input[type="text"],
+    form input[type="telephone"],
+    form input[type="email"],
+    form textarea {
+        width: 100%; /* Ширина полей формы на всю ширину экрана */
+        margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
+    }
+
+    form button {
+        width: 100%; /* Ширина кнопки формы на всю ширину экрана */
+        margin-right: 0; /* Убираем отступ справа */
     }
 }
