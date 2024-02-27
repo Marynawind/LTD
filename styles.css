@@ -162,7 +162,7 @@ form button {
         width: 100%; /* Занимаем всю ширину экрана */
     }
      .text-blockabout::after {
-        width: 100%
+        width: 100%;
         background-image: url('one.png');
         background-size: cover;
         background-repeat: no-repeat;
