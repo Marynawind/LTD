@@ -163,20 +163,12 @@ form button {
     }
         .text-blockabout::after {
         content: url('one.png'); /* Устанавливаем изображение */
-        display: block; /* Делаем изображение блочным элементом */
-        margin-top: 10px; /* Добавляем небольшой отступ сверху */
+       width: 100%;
     }
 
     .text-blockservices::after {
         content: url('two.png'); /* Устанавливаем изображение */
-        display: block; /* Делаем изображение блочным элементом */
-        margin-top: 10px; /* Добавляем небольшой отступ сверху */
+     width: 100%;
     }
-    form input[type="text"],
-    form input[type="telephone"],
-    form input[type="email"],
-    form textarea {
-        width: 100%; /* Уменьшаем ширину полей формы */
-    }
-
+ 
 
