@@ -154,7 +154,9 @@ form button {
     top: 10px; /* Отступ от верхнего края */
     right: 10px; /* Отступ от правого края */
 }
-
+  p {
+        width: 100%; /* Ширина параграфов на всю ширину экрана */
+    }
     nav ul {
         text-align: center; /* Центрируем элементы навигации */
     }
@@ -163,10 +165,6 @@ form button {
         padding: 30px; /* Уменьшаем отступы в секциях */
     }
 
-    .text-blockabout,
-    .text-blockservices {
-        width: 90%; /* Устанавливаем ширину блоков на 100% */
-    }
 
     form input[type="text"],
     form input[type="telephone"],
