@@ -143,7 +143,7 @@ form button {
 @media only screen and (min-width: 701px) and (max-width: 780px) {
     header {
         padding: 40px; /* Изменяем отступы заголовка */
-        font-size: 25px; /* Изменяем размер шрифта заголовка */
+        font-size: 20px; /* Изменяем размер шрифта заголовка */
     }
 
     .phone-icon a img {
