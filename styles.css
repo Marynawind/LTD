@@ -146,8 +146,7 @@ form button {
         padding: 50px; /* Уменьшаем отступы заголовка */
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');  
-        width: 95%;
-        background-position: center;   
+        width: 80%;
         background-repeat: no-repeat;
     }
 
@@ -155,7 +154,7 @@ form button {
     .text-blockservices {
         width: 95%; /* Уменьшаем ширину блоков до 90% ширины экрана */
         padding: 20px; /* Увеличиваем отступы в блоках */
-        background-position: center;   
+       background-position: center bottom;  
         background-repeat: no-repeat;
     }
 
@@ -164,6 +163,9 @@ form button {
     }
 
     table {
+        width: 95%; /* Уменьшаем ширину таблиц до 90% */
+    }
+  form {
         width: 95%; /* Уменьшаем ширину таблиц до 90% */
     }
 }
