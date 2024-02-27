@@ -141,25 +141,21 @@ form button {
     font-size: 25px;
 }
 /* Мобильные стили до 700px */
-@media screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
     header {
-        padding: 50px;
-        font-size: 20px;
-        background-image: url('ltd-2.png');
-        background-position: center;
+        padding: 50px; /* Уменьшаем отступы заголовка */
+        font-size: 20px; /* Уменьшаем размер шрифта заголовка */
+        background-image: url('ltd-2.png');  
+        background-position: center 80%; 
         background-repeat: no-repeat;
-        background-size: contain; /* Устанавливаем подгонку изображения под ширину */
     }
-}
 .phone-icon {
     position: fixed;
     top: 10px; /* Отступ от верхнего края */
     right: 10px; /* Отступ от правого края */
 }
- p {
-        width: 100%; /* Измените ширину параграфов на 100% */
-    }
- nav ul {
+
+    nav ul {
         text-align: center; /* Центрируем элементы навигации */
     }
 
@@ -169,7 +165,7 @@ form button {
 
     .text-blockabout,
     .text-blockservices {
-        width: 100%; /* Устанавливаем ширину блоков на 90% */
+        width: 90%; /* Устанавливаем ширину блоков на 100% */
     }
 
     form input[type="text"],
