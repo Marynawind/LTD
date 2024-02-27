@@ -155,7 +155,7 @@ form button {
      .text-blockabout::after {
         content: '';
         display: block;
-        width: 50%;
+        width: 95%;
         margin-top: 20px;
         background-image: url('one.png');
         background-size: cover;
@@ -165,7 +165,7 @@ form button {
     .text-blockservices::after {
         content: '';
         display: block;
-        width: 50%;
+        width: 95%;
         margin-top: 20px;
         background-image: url('two.png');
         background-size: cover;
