@@ -140,47 +140,28 @@ form button {
     margin-right: 40px;
     font-size: 25px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 701px) and (max-width: 780px) {
     header {
-        padding: 30px; /* Уменьшаем отступы заголовка */
-        font-size: 24px; /* Уменьшаем размер шрифта заголовка */
-    }
-
-    .phone-icon {
-        position: relative; /* Возвращаем позиционирование в изначальное состояние */
-        top: 0; /* Сбрасываем отступ сверху */
-        right: 0; /* Сбрасываем отступ справа */
-        text-align: center; /* Выравниваем иконку по центру */
+        padding: 40px; /* Изменяем отступы заголовка */
+        font-size: 25px; /* Изменяем размер шрифта заголовка */
     }
 
     .phone-icon a img {
-        width: 50px; /* Уменьшаем размер иконки телефона */
-        height: auto; /* Автоматический подбор высоты */
-    }
-
-    nav ul {
-        text-align: center; /* Центрируем элементы навигации */
+        width: 60px; /* Изменяем размер иконки телефона */
     }
 
     section {
-        padding: 30px; /* Уменьшаем отступы в секциях */
-    }
-
-    .text-blockabout,
-    .text-blockservices {
-        width: 100%; /* Устанавливаем ширину блоков на 100% */
+        padding: 40px; /* Изменяем отступы в секциях */
     }
 
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 90%; /* Увеличиваем ширину полей формы */
-        margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
+        width: 80%; /* Изменяем ширину полей формы */
     }
 
     form button {
-        width: 90%; /* Увеличиваем ширину кнопки формы */
-        margin-right: 0; /* Убираем отступ справа */
+        width: 80%; /* Изменяем ширину кнопки формы */
     }
 }
