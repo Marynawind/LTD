@@ -140,3 +140,26 @@ form button {
     margin-right: 40px;
     font-size: 25px;
 }
+@media only screen and (max-width: 700px) {
+    p {
+        width: 100%; /* Измените ширину параграфов на 100% */
+    }
+    table {
+        width: 100%; /* Измените ширину таблиц на 100% */
+    }
+    /* Добавьте другой идентификатор второму полю ввода */
+    #phone {
+        width: 100%; /* Измените ширину поля ввода на 100% */
+    }
+    form button {
+        float: none; /* Уберите флоат для кнопки */
+        margin-right: 0; /* Уберите отступы справа у кнопки */
+        margin-top: 10px; /* Добавьте отступ сверху для кнопки */
+    }
+    /* Центрируйте содержимое в блоках */
+    .text-blockabout,
+    .text-blockservices,
+    form {
+        text-align: center;
+    }
+}
