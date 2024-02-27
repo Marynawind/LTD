@@ -143,12 +143,16 @@ form button {
 @media only screen and (max-width: 700px) {
     header {
         padding: 30px; /* Уменьшаем отступы заголовка */
-        font-size: 25px; /* Уменьшаем размер шрифта заголовка */
+        font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');  
-        background-position: center; 
-        width: 80%;
+        background-position: center 80%; 
         background-repeat: no-repeat;
     }
+.phone-icon {
+    position: fixed;
+    top: 10px; /* Отступ от верхнего края */
+    right: 10px; /* Отступ от правого края */
+}
 
     nav ul {
         text-align: center; /* Центрируем элементы навигации */
