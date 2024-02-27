@@ -147,28 +147,33 @@ form button {
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');  
         background-position: center; 
-        width: 60%;
+        width: 100%;
         background-repeat: no-repeat;
     }
 
     .text-blockabout,
     .text-blockservices {
-        width: 80%; /* Ширина блоков на всю ширину экрана */
+        width: 100%; /* Ширина блоков на всю ширину экрана */
         padding: 20px; /* Увеличиваем отступы в блоках */
         background-position: center bottom;  
         background-repeat: no-repeat;
+        min-height: 200px; /* Минимальная высота блоков, чтобы изображения были видны */
     }
 
     p {
-        width: 80%; /* Ширина параграфов на всю ширину экрана */
+        width: 100%; /* Ширина параграфов на всю ширину экрана */
     }
 
     table {
-        width: 80%; /* Ширина таблиц на всю ширину экрана */
+        width: 100%; /* Ширина таблиц на всю ширину экрана */
     }
 
     label {
-        width: 80%; /* Ширина меток формы на всю ширину экрана */
+        width: 100%; /* Ширина меток формы на всю ширину экрана */
+    }
+
+    .phone-icon {
+        text-align: center; /* Центрируем иконку телефона */
     }
 
     nav ul {
@@ -179,12 +184,12 @@ form button {
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 80%; /* Ширина полей формы на всю ширину экрана */
+        width: 100%; /* Ширина полей формы на всю ширину экрана */
         margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
     }
 
     form button {
-        width: 80%; /* Ширина кнопки формы на всю ширину экрана */
+        width: 100%; /* Ширина кнопки формы на всю ширину экрана */
         margin-right: 0; /* Убираем отступ справа */
     }
 }
