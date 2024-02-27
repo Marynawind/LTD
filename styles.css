@@ -183,15 +183,15 @@ form button {
 
     .text-blockabout,
     .text-blockservices {
-        width: 90%; /* Уменьшаем ширину блоков */
-        background-size: 30%; /* Уменьшаем размер фонового изображения */
+        width: 100%; /* Уменьшаем ширину блоков */
+        background-size: 50%; /* Уменьшаем размер фонового изображения */
     }
 
     form input[type="text"],
     form input[type="telephone"],
     form input[type="email"],
     form textarea {
-        width: 90%; /* Уменьшаем ширину полей формы */
+        width: 100%; /* Уменьшаем ширину полей формы */
     }
 
     form button {
