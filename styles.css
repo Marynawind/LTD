@@ -144,12 +144,10 @@ form button {
     header {
         padding: 30px; /* Уменьшаем отступы заголовка */
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
-    }
-
-    .phone-icon {
-        position: relative; /* Возвращаем позиционирование в изначальное состояние */
-        top: 5px; /* Сбрасываем отступ сверху */
-        right: 5px; /* Сбрасываем отступ справа */
+        background-image: url('ltd-2.png');  
+        background-position: center; 
+        width: 80%;
+        background-repeat: no-repeat;
     }
 
     .phone-icon a img {
