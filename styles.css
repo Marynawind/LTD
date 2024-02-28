@@ -150,21 +150,24 @@ form button {
         background-size: contain;
     }
 .text-blockabout {
-    width: 100%
-    background-image: url('one.png');
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    margin-top: 10px; 
-}
-.text-blockservices {
-    width: 100%
-    background-image: url('two.png');
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    margin-top: 10px; 
-       
+        background-image: url('one.png');
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        margin-top: 10px;
+        width: 100%; /* Добавляем ширину 100% */
+        margin-left: 0; /* Убираем отступ слева */
+        margin-right: 0; /* Убираем отступ справа */
     }
 
+    .text-blockservices {
+        background-image: url('two.png');
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        margin-top: 10px;
+        width: 100%; /* Добавляем ширину 100% */
+        margin-left: 0; /* Убираем отступ слева */
+        margin-right: 0; /* Убираем отступ справа */
+    }
 .phone-icon {
     position: fixed;
     top: 10px; /* Отступ от верхнего края */
