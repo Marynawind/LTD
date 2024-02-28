@@ -143,7 +143,7 @@ form button {
 @media only screen and (max-width: 700px) {
     header {
         padding: 40px;
-        font-size: 23px;
+        font-size: 18px;
         background-image: url('ltd-2.png');
         background-position: center;
         background-repeat: no-repeat;
