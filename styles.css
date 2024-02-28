@@ -142,7 +142,7 @@ form button {
 /* Мобильные стили до 700px */
 @media only screen and (max-width: 700px) {
     header {
-        padding: 70px;
+        padding: 80px;
         font-size: 18px;
         background-image: url('ltd-2.png');
         background-position: center;
@@ -192,9 +192,8 @@ form button {
         width: 90%; /* Увеличиваем ширину полей формы */
         margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
     }
-     /* Добавьте сюда селекторы для вашего номера мобильного и адреса электронной почты */
-    .phone-number, .email-address {
-        color: #fff; /* Измените цвет на белый */
+     #contact h2 {
+        color: #fff; /* Изменение цвета текста на белый */
     }
 
     form button {
