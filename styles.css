@@ -146,10 +146,10 @@ form button {
     header {
         padding: 50px;
         font-size: 20px;
-        background-image: url('ltd-2.png');
-        background-position: center 60%;
+       background-image: url('ltd-2.png');
+        background-position: center;
         background-repeat: no-repeat;
-        text-align: center; 
+        background-size: contain;
     }
 .phone-icon {
     position: fixed;
