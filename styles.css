@@ -149,6 +149,20 @@ form button {
         background-repeat: no-repeat;
         background-size: contain;
     }
+    .text-blockabout .block-image,
+    .text-blockservices .block-image {
+        position: relative;
+        display: block;
+        margin: 0 auto 10px; /* Регулируйте отступы по вашему усмотрению */
+        width: 80%; /* Регулируйте размер изображения по вашему усмотрению */
+        max-width: 200px; /* Максимальная ширина изображения */
+        text-align: center;
+    }
+
+    .text-blockabout p,
+    .text-blockservices p {
+        margin-top: 10px; /* Отступ между изображением и текстом */
+    }
 .phone-icon {
     position: fixed;
     top: 10px; /* Отступ от верхнего края */
