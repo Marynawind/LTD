@@ -147,7 +147,7 @@ form button {
         font-size: 20px; /* Уменьшаем размер шрифта заголовка */
         background-image: url('ltd-2.png');  
         background-position: center; 
-        width: 80%;
+        width: 50%;
         background-repeat: no-repeat;
     }
 .phone-icon {
