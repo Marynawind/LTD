@@ -151,10 +151,19 @@ form button {
     }
 .text-blockabout {
     background-image: url('one.png');
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat; 
     margin-top: 10px; 
 }
+    .text-blockservices {
+        
+    background-image: url('two.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    margin-top: 10px; 
+       
+    }
+
 .phone-icon {
     position: fixed;
     top: 10px; /* Отступ от верхнего края */
