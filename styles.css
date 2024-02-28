@@ -143,7 +143,7 @@ form button {
 @media only screen and (max-width: 700px) {
     header {
         padding: 80px;
-        font-size: 18px;
+        font-size: 16px;
         background-image: url('ltd-2.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -192,10 +192,7 @@ form button {
         width: 90%; /* Увеличиваем ширину полей формы */
         margin-bottom: 10px; /* Уменьшаем отступ снизу полей формы */
     }
-     #contact h2 {
-        color: #fff; /* Изменение цвета текста на белый */
-    }
-
+    
     form button {
         width: 50%; /* Увеличиваем ширину кнопки формы */
         margin-right: 0; /* Убираем отступ справа */
