@@ -142,7 +142,7 @@ form button {
 /* Мобильные стили до 700px */
 @media only screen and (max-width: 700px) {
     header {
-        padding: 60px;
+        padding: 70px;
         font-size: 18px;
         background-image: url('ltd-2.png');
         background-position: center;
